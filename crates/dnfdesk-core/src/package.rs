@@ -1,0 +1,1 @@
+#[derive(Debug,Clone)] pub struct Package{pub name:String,pub version:String,pub summary:String}
