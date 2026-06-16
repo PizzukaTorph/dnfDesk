@@ -1,0 +1,12 @@
+[package]
+name = "dnfdesk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = { package = "gtk4", version = "0.9" }
+adw = { package = "libadwaita", version = "0.7" }
+glib = "0.20"
+anyhow = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["process", "rt-multi-thread", "macros"] }
